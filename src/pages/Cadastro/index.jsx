@@ -22,11 +22,8 @@ function Cadastro(){
             
         }
        
-
-       
     }
-
-
+    
     return (
         <div className=" justify-center items-center h-screen flex">
             <div className="max-w-lg w-full bg-white p-8 border border-gray-300 rounded-lg shadow-lg">
