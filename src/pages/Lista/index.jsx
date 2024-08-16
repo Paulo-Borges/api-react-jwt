@@ -22,7 +22,7 @@ const [allusers, setAllUsers] = useState()
 
 
     return(
-        <div className="max-w-2xl mx-auto mt-10 bg-white p-8 border border-gray-300 rounded-md shadow-lg">
+        <div className="max-w-2xl mx-auto mt-10 bg-white p-8 border border-gray-300 rounded-md shadow-lg mb-20">
             <h2 className="text-2xl font-bold mb-6 text-center text-gray-800">Listar Usuários</h2>
             <ul className="space-y-2">
                 {allusers && allusers.length > 0 && allusers.map( (user) => (
